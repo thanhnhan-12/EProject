@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+nav {
+  position: fixed !important;
+  z-index: 99 !important;
+  width: 100%;
+}
+
+ul li:hover a {
+  background-color: rgb(99, 91, 91);
+  color: rgb(224, 175, 130) !important;
+}
+
+.button:first-child, .button:last-child {
+  background-color: rgb(207 143 143);
+  border-color: #fff;
+}
+
+.button:hover  {
+  background-color: transparent !important;
+  text-decoration: none !important;
+  color: #000;
+}
+
+.button:hover a {
+  color: #000;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none !important;
+}
+

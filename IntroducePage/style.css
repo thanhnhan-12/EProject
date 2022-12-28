@@ -4,7 +4,7 @@
 }
 
 /* Introduce */
-h1 {
+h1, h2 {
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -134,3 +134,50 @@ h1 {
 }
 
 /* 3. Content */
+.content {
+  padding: 0 15em;
+  text-align: justify;
+}
+
+.content .section2 .section2-img,
+.section3 .section3-img,
+.section4 .section4-img {
+  text-align: center;
+}
+
+.content .section5 ul {
+  /* margin-left: 0; */
+  font-size: 15px;
+
+}
+
+.content .section7 .has-text-align-center {
+  text-align: center;
+}
+
+.content h1, h2 {
+  text-align: center;
+}
+
+.content p {
+  margin: 1.4em 0 2em;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  color: #434343;
+  font-weight: 400;
+}
+
+.content .has-background {
+  padding: 1.25em 2.375em;
+  background-color: #ffe0e8
+}
+
+.content p a {
+  color: #0cb3c9;
+  text-decoration: none;
+}
+
+.content p a:hover {
+  text-decoration: underline;
+}

@@ -4,7 +4,8 @@
 }
 
 /* Introduce */
-h1, h2 {
+h1,
+h2 {
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -14,17 +15,18 @@ h1, h2 {
   background-size: cover;
   background-repeat: no-repeat;
   height: 615px;
-}
-
-.heading {
   position: relative;
 }
 
+.heading {
+  position: absolute;
+  top: 71.4%;
+  background-color: antiquewhite;
+  border-top-right-radius: 22px;
+}
+
 .heading .box {
-  width: 40%;
-  /* position: absolute; */
-  top: -4em;
-  background-color: #fff;
+  height: 11em;
   padding-left: 1em;
 }
 
@@ -50,6 +52,7 @@ h1, h2 {
   border-radius: 4px;
   box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
   display: table;
+  margin-top: 4em;
   margin-bottom: 1em;
   margin-left: 4em;
   padding: 10px;
@@ -155,7 +158,8 @@ h1, h2 {
   text-align: center;
 }
 
-.content h1, h2 {
+.content h1,
+h2 {
   text-align: center;
 }
 
@@ -180,4 +184,24 @@ h1, h2 {
 
 .content p a:hover {
   text-decoration: underline;
+}
+
+.content .social-network_link {
+  display: flex;
+  clear: both;
+  margin: 16px auto;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #5dd4ca;
+}
+
+.content .social-network_link a {
+  border: 1px solid #000;
+  border-radius: 24px;
+  background-color: #000;
+  color: #fff;
+  padding: 11px 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 6px;
 }

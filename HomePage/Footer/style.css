@@ -3,3 +3,10 @@
   padding: 0;
 }
 
+footer {
+  background-color: #f3e5e2 !important;
+}
+
+footer section:first-child {
+  border-bottom: 1px solid #baa0bd;
+}

@@ -1,26 +1,31 @@
 * {
   margin: 0;
-  padding: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
 }
 
 /* Navbar */
 nav {
-  position: fixed !important;
-  z-index: 99 !important;
-  width: 100%;
+  /* position: fixed !important;
+  z-index: 99 !important; */
+  /* width: 100%; */
+  top: 0;
+  left: 0;
+  right: 0;
+
 }
 
 ul li a {
   display: block;
-
 }
-
-
 
 ul li a:hover {
   /* background-color: rgb(99, 91, 91); */
   color: rgb(224, 175, 130) !important;
-
 }
 
 .button:first-child,
@@ -82,4 +87,15 @@ ul li a:hover {
 .location:hover .sub-menu {
   display: block;
 
+}
+
+@media (min-width: 360px) and (max-width: 650px) {
+
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
 }

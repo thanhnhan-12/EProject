@@ -20,13 +20,12 @@ h2 {
 
 .heading {
   position: absolute;
-  top: 71.4%;
-  background-color: antiquewhite;
-  border-top-right-radius: 22px;
+    top: 75.4%;
+    opacity: 0.8;
+    background-color: #f4f3f2;
 }
 
 .heading .box {
-  height: 11em;
   padding-left: 1em;
 }
 

@@ -90,12 +90,25 @@ ul li a:hover {
 }
 
 @media (min-width: 360px) and (max-width: 650px) {
-
-  
   nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
   }
+
+  .navbar-collapse {
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    background-color: #fff;
+  }
+
+  .sub-menu {
+    position: initial;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 650px) {
+  
 }

@@ -82,7 +82,7 @@ form button:hover {
   font-size: .7em;
 }
 
-@media (min-width: 360px) and (max-width: 600px) {
+@media (min-width: 360px) and (max-width: 650px) {
   .large-box {
     display: block ;
     max-width: 90rem !important;
@@ -159,7 +159,7 @@ form button:hover {
 
 }
 
-@media (min-width: 360px) and (max-width: 600px) {
+@media (min-width: 360px) and (max-width: 650px) {
   .intro-box-wrapper {
     padding: 0 !important;
   }
@@ -236,7 +236,7 @@ form button:hover {
   margin: 0 auto 1.5em;
 }
 
-@media (min-width: 360px) and (max-width: 600px) {
+@media (min-width: 360px) and (max-width: 650px) {
   .content-box {
     padding: 0;
   }

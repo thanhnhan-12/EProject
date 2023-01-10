@@ -1,30 +1,13 @@
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column1");
-
-// Declare a loop variable
-var i;
-
-// List View
-function listView() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.width = "100%";
-  }
+function showList(e) {
+  var $gridCont = $('.grid-container');
+  e.preventDefault();
+  $gridCont.hasClass('list-view') ? $gridCont.removeClass('list-view') : $gridCont.addClass('list-view');
+}
+function gridList(e) {
+  var $gridCont = $('.grid-container')
+  e.preventDefault();
+  $gridCont.removeClass('list-view');
 }
 
-// Grid View
-function gridView() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.width = "50%";
-  }
-}
-
-/* Optional: Add active class to the current button (highlight it) */
-var container = document.getElementById("btnContainer");
-var btns = container.getElementsByClassName("btn1");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active1");
-    current[0].className = current[0].className.replace(" active1", "");
-    this.className += " active1";
-  });
-}
+$(document).on('click', '.btn-grid', gridList);
+$(document).on('click', '.btn-list', showList);

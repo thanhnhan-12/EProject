@@ -9,7 +9,7 @@ html {
 }
 
 /* Banner */
-@media (min-width: 350px) and (max-width: 600px) {
+@media (min-width: 350px) and (max-width: 650px) {
   .carousel-inner .carousel-item img {
     width: 100% !important;
     height: 320px;

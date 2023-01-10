@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* News */
+
+/* a. Outstading */
+.outstading {
+  text-align: end;
+}
+
+.news-outstading-heading {
+  background-color: #f8f7f6;
+}
+
+.news-outstading-heading, .news-views-heading {
+  padding: 22px 0 ;
+}
+
+.news-outstading-heading h1, .news-views-heading h1 {
+  margin-left: 16px;
+}
+
+.news-outstading-img img, .news-views-img img {
+  width: 60%;
+  height: 32em;
+}
+
+.news-outstading-img .caption {
+  text-align: center;
+  margin-left: 5em;
+}
+
+.news-outstading-img .caption, .news-views-img .caption {
+  font-family: "nyt-franklin", Arial,sans-serif;
+  margin-top: 8px;
+}
+
+.news-outstanding-content {
+  display: flex;
+  justify-content: end;
+}
+
+.news_content-right {
+  margin-left: 10%;
+}
+
+.news_content-left, .news_content-right {
+  width: 25%;
+  text-align: justify;
+}
+
+@media (min-width: 360px) and (max-width: 650px) {
+  .news-outstading-heading {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .news-outstading-img img, .news-views-img img {
+    width: 100%;
+    height: 18em;
+    padding: 0 22px;
+  }
+
+  .news-outstading-img .caption, .news-views-img .caption {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .news-outstanding-content {
+    display: block;
+  }
+
+  .news_content-left, .news_content-right {
+    width: 100%;
+    padding: 0 22px;
+    text-align: justify;
+  }
+
+  .news_content-right {
+    margin: 0;
+  }
+
+}
+
+/* b. Views */
+.news-views-heading {
+  background-color: #e2c9af;
+}
+
+.news-views-content {
+  display: flex;
+}
+

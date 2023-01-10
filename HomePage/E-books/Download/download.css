@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url(img/main.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.5em;
+}
+img.logo {
+    margin-left: 24em;
+    width: 116px;
+    height: 102px;
+}
+
+h2{
+    color: rgb(66, 27, 27);
+}
+
+/* Form */
+.mainform {
+    background-color: transparent;
+    /* margin-right: 388px;
+    margin-left: 656px;
+    margin-bottom: 44px;
+    margin-top: -325px;
+    */
+    padding-left: 55px; 
+    z-index: 99;
+    position: relative;
+    width: 70%;
+    padding-bottom: 25px;
+    box-shadow: 0 0 30px 8px black;
+    margin-top: -3em;
+}
+
+input {
+    width: 86.5%;
+    height: 35px;
+    border-color: rgb(175, 102, 102);
+    padding-left: 39px;
+}
+.invalid-error{
+color: rgb(109, 15, 15);
+font-weight: bolder;
+}
+
+button {
+    width: 91%;
+    height: 38px;
+    margin-top: 18px;
+    border: none;
+    background-color: rgb(175, 102, 102);
+    color: white;
+    border-radius: 9px;
+}
+
+button:hover {
+    background-color: rgb(218, 193, 193);
+    color: black;
+}
+
+.box {
+    position: relative;
+}
+label{
+    font-style: italic;
+    font-weight: bolder;
+}
+@media (min-width: 360px) and (max-width: 650px) {
+    body {
+       background-image: none;
+    }
+
+    .wrapper {
+        display: block; 
+        margin-top: 0;
+    }
+
+    .wrapper .col-lg-4 img {
+        width: 100%;
+    }
+
+    .wrapper .mainform {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .wrapper img {
+        padding-left: 0;
+        margin-left: 1em;
+        margin-top: 3em;
+    }
+    .wrapper .box button{
+        width: 86%;
+    }
+    
+}

@@ -4,10 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-  overflow: hidden;
-}
-
 h1,
 h2 {
   font-family: 'Cormorant Garamond', serif;

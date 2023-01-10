@@ -34,6 +34,10 @@ form button:hover {
   display: flex;
 }
 
+.large-box  a {
+  text-decoration: none;
+}
+
 .large-box a:hover {
   text-decoration: none;
   outline: 0;

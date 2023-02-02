@@ -22,25 +22,25 @@
         </div>
 
         <!-- Form -->
-        <div class="mainform">
-            <br>
-            <img class="logo" src="photo/logo-.png" alt="logo">
-            <div class="box">
-                <input type="email" class="form-control" id="uname" name="uname" placeholder="Username" required>
-                <i class="fa-sharp fa-solid fa-envelope"></i>
-            </div><br>
-
-            <div class="box">
-                <input type="password" name="pwd" class="form-control" id="password" placeholder="Password" required>
-                <i class="fa-sharp fa-solid fa-lock"></i>
-                <i class="bi bi-eye-slash" id="togglePassword"></i>
-                <button type="submit" class="btn btn-primary">Sign in </button>
-                <div class="forgetpass">
-                    <a href="#">Forget Password</a>
-
+        <form action="">
+            <div class="mainform">
+                <br>
+                <img class="logo" src="photo/logo-.png" alt="logo">
+                <div class="box">
+                    <input type="email" class="form-control" id="uname" name="uname" placeholder="Username" required maxlength="20">
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                </div><br>
+                <div class="box">
+                    <input type="password" name="pwd" class="form-control" id="password" placeholder="Password" pattern=".{8,12}" required title="8 to 12 characters">
+                    <i class="fa-sharp fa-solid fa-lock"></i>
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+                    <button type="submit" class="btn btn-primary">Sign in </button>
+                    <div class="forgetpass">
+                        <a href="#">Forget Password</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </form>
         <script>
             const togglePassword = document.querySelector("#togglePassword");
             const password = document.querySelector("#password");
